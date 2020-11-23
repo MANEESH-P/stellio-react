@@ -17,7 +17,6 @@ getState().then((localState) => {
   store.subscribe(() => {
     saveState({
       songs: store.getState().songs,
-      recentlyPlayed: store.getState().recentlyPlayed,
     });
   });
 
